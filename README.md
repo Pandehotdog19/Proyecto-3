@@ -23,7 +23,6 @@
 
 - ¿Cómo se integra Cowboy con el framework Phoenix en Elixir? Cowboy se integra con el framework Phoenix en Elixir como el servidor HTTP subyacente. Phoenix utiliza Cowboy para manejar las conexiones HTTP y WebSockets, delegando en él la gestión de estas conexiones. Esta integración permite que Phoenix se beneficie de la eficiencia y la capacidad de manejo de conexiones concurrentes de Cowboy, mientras que Phoenix proporciona una capa adicional de abstracción para la lógica de la aplicación, facilitando el desarrollo de aplicaciones web modernas y en tiempo real.
 - Explica la relación entre Phoenix Channels y Cowboy en el manejo de WebSockets. Phoenix Channels es una característica de Phoenix que permite la comunicación en tiempo real entre el cliente y el servidor a través de WebSockets. La relación entre Phoenix Channels y Cowboy radica en que Cowboy es el encargado de manejar la conexión WebSocket subyacente. 
-
 Cuando se establece una conexión WebSocket, Cowboy se ocupa de la gestión de esta conexión, incluyendo el proceso de apertura y cierre. Una vez establecida la conexión, Phoenix Channels se encarga de la lógica de la aplicación, permitiendo a los desarrolladores enviar y recibir mensajes a través de canales específicos. Esto proporciona una interfaz más sencilla y poderosa para trabajar con WebSockets, facilitando el desarrollo de aplicaciones interactivas en tiempo real sin tener que manejar directamente los detalles de bajo nivel que Cowboy gestiona.
 
 5. Desafíos y Consideraciones:
