@@ -44,4 +44,8 @@ Cuando se establece una conexión WebSocket, Cowboy se ocupa de la gestión de e
 
 3. **Manejo de errores asíncronos**: Erlang facilita la gestión de errores asíncronos a través de su modelo de actores, permitiendo a los desarrolladores diseñar aplicaciones que pueden recuperarse de fallos sin interrumpir el flujo de trabajo. Esto es especialmente útil en aplicaciones que requieren alta disponibilidad y mínima latencia.
 
-4. **Escalabilidad**: La tolerancia a fallos permite a las aplicaciones que utilizan Cowboy escalar de manera eficiente. Los procesos pueden ser distribuidos y reiniciados en diferentes nodos del sistema sin afectar la experiencia del usuario, permitiendo que la aplicación maneje picos de tráfico sin comprometer la estabilidad. 
+4. **Escalabilidad**: La tolerancia a fallos permite a las aplicaciones que utilizan Cowboy escalar de manera eficiente. Los procesos pueden ser distribuidos y reiniciados en diferentes nodos del sistema sin afectar la experiencia del usuario, permitiendo que la aplicación maneje picos de tráfico sin comprometer la estabilidad.
+
+# Link de Asciinema 
+
+[![asciicast](https://asciinema.org/a/eaJ0BVRgFUqc4hpZpsWD652R3.svg)](https://asciinema.org/a/eaJ0BVRgFUqc4hpZpsWD652R3)
